@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/docker:19.03.14
+FROM 936675601706.dkr.ecr.us-east-2.amazonaws.com/docker:19.03.4
 
 RUN apk update \
   && apk upgrade \
