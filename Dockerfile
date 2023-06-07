@@ -6,8 +6,7 @@ RUN apk update \
   && rm -rf /var/cache/apk/* \
   && pip install pyyaml==5.3.1 \
   && pip install six \
-  && pip install -U awscli \
-  && apk --purge -v del py-pip
+  && pip install -U awscli
 
 ADD entrypoint.sh /entrypoint.sh
 
