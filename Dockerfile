@@ -1,4 +1,4 @@
-FROM 936675601706.dkr.ecr.us-east-2.amazonaws.com/docker:19.03.4
+FROM public.ecr.aws/docker/library/docker:19.03.15-alpine3.13
 
 RUN apk update \
   && apk upgrade \
