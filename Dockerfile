@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/docker:19.03.15-alpine3.13
+FROM public.ecr.aws/docker/library/docker:19.03.14-git
 
 RUN apk update \
   && apk upgrade \
