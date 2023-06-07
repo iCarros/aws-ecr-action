@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/docker:19.03.14-git
+FROM public.ecr.aws/docker/library/docker:19.03
 
 RUN apk update \
   && apk upgrade \
